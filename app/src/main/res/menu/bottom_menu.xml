@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+
+          android:icon="@drawable/baseline_home_24"
+          android:id = "@+id/firstfrag"
+          android:visible="true"/>
+
+
+    <item android:title="Setups"
+          android:icon="@drawable/baseline_offline_bolt_24"
+
+          android:id = "@+id/secondfrag"/>
+
+
+    <item android:title="Tracks"
+          android:icon="@drawable/baseline_double_arrow_24"
+          android:id = "@+id/thirdfrag"/>
+
+
+    <item android:title="Rules"
+          android:icon="@drawable/baseline_rule_24"
+          android:visible="true"
+          android:id = "@+id/fourthfrag"/>
+
+</menu>

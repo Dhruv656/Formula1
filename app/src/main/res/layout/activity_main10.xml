@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background16"
+    tools:context=".MainActivity10">
+
+    <include layout="@layout/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customActionBar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/customActionBar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add your TextViews or other content here -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sporting Regulations 2023"
+                android:gravity="center"
+                android:fontFamily="@font/cont"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:textSize="20dp"
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="============================================================"
+                android:layout_height="wrap_content"/>
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-30dp"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Enforcing Time Limits on Races "
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:paddingStart="16dp"
+                        android:paddingTop="16dp"
+                        android:paddingEnd="10dp"
+                        android:text="Time limits for races: In sprint races (1 hour) or grands prix (2 hours), if the maximum time is reached, the race end signal will be shown on the lap after time expires, unless the leader finishes the scheduled race distance earlier."
+                        android:textColor="@color/orange" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Alternative Tyre Allocation "
+                        android:layout_marginTop="-30dp"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In 2023, F1 renamed the Revised Qualifying Format to 'Alternative Tyre Allocation'. Unchanged format: drivers use hard, medium, and soft tyres in Q1, Q2, and Q3 respectively for the two selected events."
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Teams must present updated cars"
+                        android:layout_marginTop="-30dp"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Teams must show cars at races (rule introduced last year) for media coverage of developments. New clause 19.2 (a) (ii) prevents hiding parts: if one car carries new components intended for the race, it must be displayed."
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Special DRS rule for sprint races"
+                        android:layout_marginTop="-30dp"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                       android:text="In sprint races, DRS can be activated a lap earlier than grands prix, tested for potential Sunday race adoption next year. Revised rule:
+
+ (i) After 1 lap or Safety Car in sprint session,
+ (ii) After 2 laps or Safety Car in regular race."
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Incorrect starting position"
+                        android:layout_marginTop="-30dp"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Incorrect start if a driver's front wheels are beyond grid marker's sides and front. Rule 48.1 (c): Front tire's contact patch outside lines during start signal."
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Race Suspension: Pit Lane Rules"
+                        android:layout_marginTop="-30dp"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="During a race suspension, if cars leave pit lane, they must start from pits. New rule: cars moved from fast lane to any pit part will be at back of fast lane. They can exit during race resumption, re-enter when safety car returns, join race after last car passes pit exit post-restart."
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Sprint races"
+                        android:layout_marginTop="-30dp"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="i) If 1-hour elapses from start, leader shown signal after next lap (not exceeding laps).
+ii) If sprint suspended (Art. 57), suspension time added to 1-hour limit (max 1.5 hours). Leader shown signal after lap when total time ends, not exceeding laps."
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Winter shutdown"
+                        android:layout_marginTop="-30dp"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In addition to the long-established summer factory shutdown, another is now enforced during the winter. The rules state all competitors must observe an additional shutdown period:
+
+24. (b) of nine consecutive calendar days starting on the 24 December"
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-30dp"
+                        android:gravity="center"
+                        android:text="Forza Sempre"
+
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Unleash the speed, chase the win sending best wishes to the Race Engineer!"
+                        android:fontFamily="@font/nasal"
+                        android:layout_marginTop="-10dp"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!-- Add more TextViews or other content as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+    
+    
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

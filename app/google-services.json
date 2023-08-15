@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "182263010988",
+    "project_id": "raceoptima",
+    "storage_bucket": "raceoptima.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182263010988:android:ab0722d91e72d3537c3109",
+        "android_client_info": {
+          "package_name": "com.example.raceoptima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182263010988-f02a2jop0kpgq3lhj4nmjiogn7oqhbem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raceoptima",
+            "certificate_hash": "4fbc01018829850d9e382f5cf9becf158786c29d"
+          }
+        },
+        {
+          "client_id": "182263010988-0us4rq2ps77nln2v4ugo4t82ragbotj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rZNS9eevTEJNamX9untb7OFT-mKrXKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182263010988-0us4rq2ps77nln2v4ugo4t82ragbotj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

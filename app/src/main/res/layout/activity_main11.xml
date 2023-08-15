@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background17"
+    tools:context=".MainActivity11">
+
+    <include layout="@layout/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/customActionBar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/customActionBar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technical Regulations 2023"
+                android:gravity="center"
+                android:fontFamily="@font/cont"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="============================================================"
+                android:layout_height="wrap_content"/>
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-30dp"
+                        android:fontFamily="@font/cont"
+                        android:gravity="center"
+                        android:text="Stiffer Floors "
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nasal"
+                        android:gravity="center"
+                        android:paddingStart="16dp"
+
+                        android:text="In 2023 F1, FIA tightened floor rules to limit bending. Side flex now 5mm with 250N load, down from 8mm. Skid block control with 4 points to prevent incidents like Zhou Guanyu's Silverstone crash. Stiffer floors than last year."
+                        android:paddingTop="16dp"
+                        android:paddingEnd="10dp"
+                        android:textColor="@color/orange" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-30dp"
+                        android:gravity="center"
+                        android:text="Weight Changes "
+
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In 2023, aero's vital with frozen power units till 2026. Cars at 796 kg, down 2kg from 2022. Power unit adds 1 kg to 151 kg with chassis. 3 units in 23 races, ensuring reliability. Petrol cooling flexible, allows 10°C cooling below 30°C. Relief valve prevents >1 bar tank pressure."
+                        android:fontFamily="@font/nasal"
+
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView for information -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-30dp"
+                        android:gravity="center"
+                        android:text="Safety Improvements "
+
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In 2023, FIA teams enhance F1 safety. Roll hoops more durable after Zhou Guanyu's crash. New 49kN crash test added, plus others. Roll hoop: 20mm forward, 50mm taller. Mirrors expand to 150×50mm for visibility, up from 60×20mm."
+                        android:fontFamily="@font/nasal"
+
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-35dp"
+                        android:gravity="center"
+                        android:text="Aerodynamics "
+
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2023's aero changes target underbody for stability. Car gets taller due to plank and floor adjustments. Max deflection now 5mm. Front wing, endplate areas have new limits. Mirrors must be a third larger."
+                        android:fontFamily="@font/nasal"
+
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-35dp"
+                        android:gravity="center"
+                        android:text="Precision Sensors
+ "                      android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Starting at Spa-Francorchamps, sensors measure car forces, also used for crashes. They'll serve this dual purpose for the season, with specialized sensors for precise 2023 measurements."
+                        android:fontFamily="@font/nasal"
+
+
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-30dp"
+                        android:gravity="center"
+                        android:text="Fuel Temperature"
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="After 2022 fuel temp worries, FIA changes 2023 rules. Fuel should not be less than 10 degrees below ambient temp. 10°C minimum in cold weather. FIA-approved service notes temp before practice/race."
+                        android:fontFamily="@font/nasal"
+
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-30dp"
+                        android:gravity="center"
+                        android:text="Qualifying Tire Usage "
+
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="In 2023, qualifying changes include tire use adjustments. 11 sets allowed, down from 13. 4 soft sets instead of 8, 4 mediums/hards instead of 3. Q1: hard, Q2: medium, Q3: soft tires."
+                        android:fontFamily="@font/nasal"
+
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                android:layout_margin="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <!-- ImageView with image -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background15" />
+
+                <!-- LinearLayout to hold the text -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    >
+
+                    <!-- First TextView for title (heading) -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cont"
+                        android:layout_marginTop="-30dp"
+                        android:gravity="center"
+                        android:text="Forza Sempre"
+
+                        android:textColor="@color/orange"
+
+                        android:textSize="15dp" />
+
+                    <!-- Second TextView for information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Unleash the speed, chase the win sending best wishes to the Race Engineer!"
+                        android:fontFamily="@font/nasal"
+                        android:layout_marginTop="-10dp"
+                        android:gravity="center"
+                        android:textColor="@color/orange"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="10dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

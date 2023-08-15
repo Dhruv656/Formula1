@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/firstfrag">
+
+    <fragment
+        android:id="@+id/firstfrag"
+        android:name="com.example.raceoptima.firstfrag"
+        android:label="fragment_firstfrag"
+        tools:layout="@layout/fragment_firstfrag" />
+    <fragment
+        android:id="@+id/secondfrag"
+        android:name="com.example.raceoptima.secondfrag"
+        android:label="fragment_secondfrag"
+        tools:layout="@layout/fragment_secondfrag" />
+    <fragment
+        android:id="@+id/thirdfrag"
+        android:name="com.example.raceoptima.thirdfrag"
+        android:label="fragment_thirdfrag"
+        tools:layout="@layout/fragment_thirdfrag" />
+    <fragment
+        android:id="@+id/fourthfrag"
+        android:name="com.example.raceoptima.fourthfrag"
+        android:label="fragment_fourthfrag"
+
+        tools:layout="@layout/fragment_fourthfrag" />
+</navigation>
